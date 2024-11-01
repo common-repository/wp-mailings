@@ -1,0 +1,103 @@
+div.panel {
+	border: 1px solid #999;
+	float: left;
+	background-color: #EEE;
+}
+
+div.panel div.list {
+	overflow: scroll;
+	border-top: 1px solid #DDD;
+	background-color: white;
+}
+
+div.panel div.head {
+	margin: 5px;
+}
+
+div.panel div.list {
+	padding: 5px;
+}
+
+div.panel div.head h3 {
+	margin-top: 5px;
+}
+
+.clickable { 
+	cursor: pointer;
+}
+
+
+.vam img {
+	vertical-align: middle;
+}
+
+.vat img {
+	vertical-align: top;
+}
+
+div.list div.group, div.list div.user {
+	cursor: pointer;
+	padding: 4px;
+}
+
+div.panel#edit {
+	-moz-border-radius-topright: 10px;
+}
+
+div#user_global_operations {
+	width: 25%;
+	border: 1px solid #999999;
+	border-bottom: none;
+	background-color: #EEE;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+}
+
+input.search {
+	background: white url(../images/magnifier.png) no-repeat scroll 3px center;
+	padding-left: 22px;
+	margin-left: 10px;
+}
+
+input.blur {
+	color: #666;
+}
+
+div.group.selected, div.user.selected {
+	background-color: #EEEEEE;
+}
+
+button img {
+	vertical-align: middle;
+}
+
+div#panels {
+	position: relative;
+}
+
+div#ajax-loading {
+	float: right;
+	margin-top: 10px;
+	margin-right: 4.7%;
+	display: none;
+}
+
+div#ajax-loading.error {
+	background-image: url(../images/error.png);
+	background-position: 7px center;
+	background-repeat: no-repeat;
+	padding: 2px 7px 2px 27px;
+}
+
+button.icon {
+	padding: 3px 8px 3px 28px;
+	
+}
+
+button.icon_group_add {
+	background: white url(../images/group_add.png) no-repeat scroll 8px center;
+}
+
+button.icon_group_delete {
+	background: white url(../images/group_delete.png) no-repeat scroll 8px center;
+}
